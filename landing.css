@@ -8,7 +8,7 @@ body {
 
 section {
   align-items: center;
-  padding: 5%;
+  padding-left: 10%;
 }
 
 h1,
@@ -560,7 +560,7 @@ hr {
 .wrapper {
   position: absolute;
   left: 70%;
-  top: 485%;
+  top: 440%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 550px;
