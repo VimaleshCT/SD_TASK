@@ -17,6 +17,9 @@ h3 {
   color: #65b741;
   align-items: center;
 }
+p {
+  color: #e3fef7;
+}
 
 header {
   background-color: #e3fef7;
@@ -557,7 +560,7 @@ hr {
 .wrapper {
   position: absolute;
   left: 70%;
-  top: 480%;
+  top: 485%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 550px;
