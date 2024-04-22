@@ -177,6 +177,32 @@ ul li a:hover {
   width: 95%;
   margin-bottom: 15px;
 }
+/* 
+.accordian-btn::before {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  border: 10px solid transparent;
+  border-bottom-color: #ddd;
+} */
+label {
+  display: flex;
+  color: white;
+  background: var(--theme);
+  cursor: pointer;
+}
+label {
+  justify-content: space-between;
+  padding: 1rem;
+}
+label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
 
 .accordion-btn {
   background-color: #135d66;
@@ -249,6 +275,7 @@ ul li a:hover {
   margin: 0;
   padding: 0;
   position: relative;
+  display: flex;
 }
 
 .testimonial li {
@@ -521,7 +548,7 @@ li {
 
 .list-item {
   line-height: 4;
-  color: #65b741;
+  color: #5debd7;
 }
 
 .contact-text {
